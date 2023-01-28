@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    password: root
+    username: root
+    url: jdbc:mysql://localhost:3306/user_management
+    driverClassName: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      naming-strategy:org.hibernate.cfg.ImprovedNamingStrategy
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId: xxxx
+            clientSecret:  xxx
+            callbackUrl: http://localhost:8080/login/oauth2/code/github
+            scope: read:user,public_repo
