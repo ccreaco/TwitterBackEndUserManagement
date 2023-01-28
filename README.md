@@ -1,4 +1,4 @@
-# UserManagement
+# Twitter Back-End Microservice - UserManagement
 
 # Introduction
 A user management Java Spring Boot application. This project is part of a microservice enterprise application. It is created to mimic a basic back-end Twitter application. A UUID is generated as a token to connect to each service. 
